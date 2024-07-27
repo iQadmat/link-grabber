@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Link Grabber</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="icons/apple-touch-icon.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="icons/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="icons/favicon-16x16.png"
+    />
+    <link rel="manifest" href="site.webmanifest" />
+  </head>
+  <body>
+    <div id="container">
+      <label for="user-input">Enter URL:</label>
+      <input id="user-input" type="text" placeholder="https://google.com" />
+      <div id="buttons">
+        <button id="save-link">SAVE LINK</button>
+        <button id="clear-all">CLEAR ALL</button>
+      </div>
+      <ul id="links"></ul>
+    </div>
+
+    <script src="script.js" type="module"></script>
+  </body>
+</html>
